@@ -1,0 +1,347 @@
+body {
+  overflow-x: hidden !important;
+  }
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Trispace', sans-serif;
+  transition: .3s;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+
+.estrutura {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+    "section1"
+    "section2"
+    "section3"
+    "section4"
+    "section5"
+          ;
+}
+
+
+/* Header */
+header {
+  position: fixed;
+  left: -150px;
+  height: 100%;
+  width: 150px;
+  grid-area: header;
+  background: rgba(94, 94, 94, 0.527);
+  z-index: 100;
+}
+.ulmenu {
+  margin-top: 200px;
+  padding: 20px;
+  text-align: center;
+  font-size: 17px;
+}
+.ulmenu li {
+  margin-bottom: 50px;
+}
+.ulmenu a {
+  color: white;
+}
+.ulmenu a:hover {
+  color: rgb(82, 173, 209);
+}
+.setamenu {
+  position: absolute;
+  padding-left: 5px;
+  left: 149px;
+  top: 45%;
+  height: 50px;
+  width: 50px;
+  filter: invert(100%);
+}
+
+/* Section1 */
+.section1 {
+  position: relative;
+  grid-area: section1;
+  background: url("/images/img1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.containersec1 {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20px;
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.884);
+}
+.imgperfil {
+  background-image: url("/images/img.JPEG");
+  background-position: center 20%;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  margin-top: 20px;
+  opacity: 0;
+  transition: 0s;
+  border-radius: 130px;
+  height: 260px;
+  width: 260px;
+}
+h1, h2, h3, h4, h5, h6 {
+padding: 6px;
+letter-spacing: 1px;
+transition: .3s;
+cursor: default;
+}
+h1 {
+  position: relative;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 40px;
+  padding: 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+h2, h3, h4, h5, h6 {
+  font-size: 16px;
+}
+h2:hover {
+  color:  rgb(82, 173, 209);
+}
+h3:hover {
+  color:  rgb(82, 173, 209);
+}
+h4:hover {
+  color:  rgb(82, 173, 209);
+}
+h5:hover {
+  color:  rgb(82, 173, 209);
+}
+.txt {
+  margin-top: 50px;
+  width: 70%;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: justify;
+  cursor: default;
+}
+
+
+/* Section2 */
+.section2 {
+  position: relative;
+  grid-area: section2;
+  height: 400px;
+  background: url("/images/img2.jpg");
+  background-position: 20% 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.containersec2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to right, rgba(0, 0, 105, 0.918) ,  rgba(116, 14, 14, 0.692));
+}
+.pdrcard {
+  position: relative;
+  height: 100px;
+  width: 200px;
+  background-color: rgb(46, 146, 185);
+  border: 1px solid white;
+  overflow: hidden;
+  margin: 10px;
+}
+.pdrtltcard {
+  position: absolute;
+  font-size: 17px;
+  text-transform: uppercase;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.pdrtxtcard {
+  position: absolute;
+  top: 120px;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+/* Section3 */
+.section3 {
+  position: relative;
+  grid-area: section3;
+  height: 600px;
+  color: white;
+}
+.cursos {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 19px;
+  text-transform: uppercase;
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 100;
+}
+.containersec3 {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: rgba(0, 0, 0, 0.945);
+}
+.full {
+  background: url("/images/full.jpeg");
+  background-position: 40% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(20%);
+}
+.fulla {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  color: white;
+  transform: translate(-50%);
+  font-size: 20px;
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 100;
+}
+.fulla:hover {
+  color: rgb(46, 146, 185);
+}
+.oria {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  color: white;
+  transform: translate(-50%);
+  font-size: 20px;
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 100;
+}
+.oria:hover {
+  color: rgb(46, 146, 185);
+}
+.origamid {
+  background: url("/images/origamid.jpeg");
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(20%);
+}
+
+/* section4 */
+.section4 {
+  position: relative;
+  grid-area: section4;
+  height: 400px;
+  background: url("/images/img2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.containersec4 {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgb(116, 14, 14) ,    rgba(116, 14, 14, 0.692));
+}
+.pc {
+  position: absolute;
+  left: 55%;
+  top: 50px;
+  height: 500px;
+  width: auto;
+  transform: translate(-50%);
+}
+.projetos {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 19px;
+  text-transform: uppercase;
+  background: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 100;
+}
+.skew {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  left: -250px;
+  width: 1000px;
+  background: rgb(32, 32, 32);
+  transform: skew(-20deg);
+}
+.ulpro {
+  position: absolute;
+  top: 120px;
+  left: 20%;
+  transform: translateX(-50%);
+  z-index: 100;
+  color: white;
+}
+.ulpro li {
+  margin-bottom: 40px;
+}
+.ulpro li a {
+  color: white;
+}
+
+/* section5 */
+.section5 {
+  position: relative;
+  grid-area: section5;
+  background: rgba(0, 0, 0, 0.747);
+  height: 60px;
+}
+.ulredes {
+  position: absolute;
+  padding: 12.5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.ulredes li {
+  margin-right: 10px;
+}
+.pdrimg {
+  height: 35px;
+  width: auto;
+  filter: invert(100%);
+}
+.pdrimg:hover {
+  filter: invert(50%);
+}
+

@@ -1,0 +1,98 @@
+@media (max-width:904px) {
+.section2 {
+  height: 420px;
+}
+}
+@media (max-width:800px) {
+header {
+  height: 400px;
+  }
+.ulmenu {
+  margin-top: 35px;
+  font-size: 14px;
+  }
+.setamenu {
+  top:20px;
+  }
+.section1 {
+  max-height: 700px;
+  overflow-y: scroll;
+  }
+.imgperfil {
+  background-size: cover;
+  max-height: 200px;
+  max-width: 200px;
+  }
+h1 {
+  margin-top: 50px;
+  }
+.txt {
+  margin-top: 50px;
+  text-align: unset;
+  font-size: 16px;
+  }
+.containersec3 {
+  grid-template-columns: 1fr;
+}
+.section3{
+  height: 800px;
+}
+.fulla {
+  top: 25%;
+  left: 50%;
+  font-size: 14px;
+}
+.oria{
+  top: 75%;
+  left: 50%;
+  font-size: 14px;
+}
+.cursos {
+  top: 20px;
+  font-size: 15px;
+}
+.projetos {
+  font-size: 15px;
+}
+.pdrtltcard {
+  font-size: 16px;
+}
+.pdrtxtcard {
+  font-size: 16px;
+}
+.section4  {
+  height: 400px;
+}
+.skew {
+  width: 800px;
+}
+.pc {
+  height: 400px;
+}
+.ulpro {
+  font-size: 13px;
+}
+}
+@media (max-width:600px) {
+.skew {
+  width: 600px;
+}
+.ulpro {
+  left: 50%;
+}
+}
+@media (max-width:500px) {
+.pc {
+  height: 350px;
+  left: 2%;
+  transform: translate(0%);
+  }
+}
+@media (max-width:460px) {
+  .section2 {
+    height: 720px;
+  }
+  .containersec2 {
+    align-items: flex-end;
+  }
+ }

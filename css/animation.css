@@ -1,0 +1,186 @@
+@keyframes cor {
+  0% {opacity: 0;}
+  20% {opacity: 1;color:rgb(82, 173, 209);}
+  40% {opacity: 0;}
+  60% {opacity: 1;color:rgb(82, 173, 209);}
+  80% {opacity: 0;}
+  100% {opacity: 1;color:rgb(82, 173, 209);}
+}
+.l1 {
+  animation: cor 1.5s  ;
+  animation-delay: 2.1s;
+}
+.l2 {
+  animation: cor 1.5s;
+  animation-delay: 3.4s;
+}
+.l3 {
+  animation: cor 1.5s;
+  animation-delay: 1.8s;
+}
+.l4 {
+  animation: cor 11.5ss;
+  animation-delay: 2.4s;
+}
+.l5 {
+  animation: cor 1.5s;
+  animation-delay: 3.8s;
+}
+.l6 {
+  animation: cor 1.5s;
+  animation-delay: 4.9s;
+}
+.l7 {
+  animation: cor 1.5s;
+  animation-delay: 5s;
+}
+.l8 {
+  animation: cor 1.5s;
+  animation-delay: 2.3s;
+}
+.l9 {
+  animation: cor 1.5s;
+  animation-delay: 1.2s;
+}
+.l10 {
+  animation: cor 1.5s;
+  animation-delay: 3.7s;
+}
+.l11 {
+  animation: cor 1.5s;
+  animation-delay: 2.6s;
+}
+.l12 {
+  animation: cor 1.5s;
+  animation-delay: 4.9s;
+}
+.l13 {
+  animation: cor 1.5s;
+  animation-delay: 5.9s;
+}
+.l14 {
+  animation: cor 1.5s;
+  animation-delay: 4.5s;
+}
+.l15 {
+  animation: cor 1.5s;
+  animation-delay: 6.3s;
+}
+.l16 {
+  animation: cor 1.5s;
+  animation-delay: 5.6s;
+}
+.l17 {
+  animation: cor 1.5s;
+  animation-delay: 6s;
+}
+.l18 {
+  animation: cor 1.5s;
+  animation-delay: 5.8s;
+}
+.l19 {
+  animation: cor 1.5s;
+  animation-delay: 4.1s;
+}
+.l20 {
+  animation: cor 1.5s;
+  animation-delay: 5.3s;
+}
+.l21 {
+  animation: cor 1.5s;
+  animation-delay: 4.4s;
+}
+.l22 {
+  animation: cor 1.5s;
+  animation-delay: 3.6s;
+}
+.l1:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l2:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l3:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l4:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l5:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l6:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l7:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l8:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l9:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l10:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l11:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l12:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l13:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l14:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l15:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l16:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l17:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l18:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l19:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l20:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l21:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+.l22:hover {
+  color:rgb(82, 173, 209);
+  text-transform: lowercase;
+}
+
+
