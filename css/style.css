@@ -1,12 +1,13 @@
+/* Geral */
 body {
   overflow-x: hidden !important;
+  
   }
 * {
   margin: 0px;
   padding: 0px;
   font-family: 'Bebas Neue', cursive;
   font-family: 'Trispace', sans-serif;
-  transition: .3s;
 }
 a {
   color: black;
@@ -15,11 +16,11 @@ a {
 ul {
   list-style: none;
 }
-
-
+/* Estrutura */
 .estrutura {
   display: grid;
   grid-template-columns: 1fr;
+  transition: .2s;
   grid-template-areas: 
     "section1"
     "section2"
@@ -28,8 +29,6 @@ ul {
     "section5"
           ;
 }
-
-
 /* Header */
 header {
   position: fixed;
@@ -39,6 +38,7 @@ header {
   grid-area: header;
   background: rgba(94, 94, 94, 0.527);
   z-index: 100;
+  transition: .3s;
 }
 .ulmenu {
   margin-top: 200px;
@@ -51,9 +51,7 @@ header {
 }
 .ulmenu a {
   color: white;
-}
-.ulmenu a:hover {
-  color: rgb(82, 173, 209);
+  transition: .2s;
 }
 .setamenu {
   position: absolute;
@@ -64,7 +62,6 @@ header {
   width: 50px;
   filter: invert(100%);
 }
-
 /* Section1 */
 .section1 {
   position: relative;
@@ -82,7 +79,6 @@ header {
   width: 100%;
   height: 100%;
   padding-bottom: 20px;
-  transition: 1s;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,17 +91,22 @@ header {
   background-size: 400px;
   background-repeat: no-repeat;
   margin-top: 20px;
-  opacity: 0;
-  transition: 0s;
   border-radius: 130px;
   height: 260px;
   width: 260px;
+  animation: up .3s;
+  animation-delay: .7s;
+  animation-fill-mode: backwards;
 }
 h1, h2, h3, h4, h5, h6 {
-padding: 6px;
-letter-spacing: 1px;
-transition: .3s;
-cursor: default;
+  padding: 6px;
+  letter-spacing: 1px;
+  transition: .3s;
+  cursor: default;
+  font-size: 16px;
+  animation: up .3s;
+  animation-delay: .6s;
+  animation-fill-mode: backwards;
 }
 h1 {
   position: relative;
@@ -113,23 +114,7 @@ h1 {
   font-size: 20px;
   margin-top: 40px;
   padding: 10px;
-  cursor: pointer;
   transition: .3s;
-}
-h2, h3, h4, h5, h6 {
-  font-size: 16px;
-}
-h2:hover {
-  color:  rgb(82, 173, 209);
-}
-h3:hover {
-  color:  rgb(82, 173, 209);
-}
-h4:hover {
-  color:  rgb(82, 173, 209);
-}
-h5:hover {
-  color:  rgb(82, 173, 209);
 }
 .txt {
   margin-top: 50px;
@@ -138,14 +123,14 @@ h5:hover {
   line-height: 35px;
   text-align: justify;
   cursor: default;
+  animation: up .3s;
+  animation-delay: .5s;
+  animation-fill-mode: backwards;
 }
-
-
 /* Section2 */
 .section2 {
   position: relative;
   grid-area: section2;
-  height: 400px;
   background: url("/images/img2.jpg");
   background-position: 20% 20%;
   background-size: cover;
@@ -168,7 +153,9 @@ h5:hover {
   background-color: rgb(46, 146, 185);
   border: 1px solid white;
   overflow: hidden;
-  margin: 10px;
+  margin: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .pdrtltcard {
   position: absolute;
@@ -177,6 +164,8 @@ h5:hover {
   top: 40px;
   left: 50%;
   transform: translate(-50%);
+  transition: .3s;
+
 }
 .pdrtxtcard {
   position: absolute;
@@ -186,8 +175,8 @@ h5:hover {
   text-align: center;
   left: 50%;
   transform: translate(-50%);
+  transition: .3s;
 }
-
 /* Section3 */
 .section3 {
   position: relative;
@@ -232,9 +221,7 @@ h5:hover {
   padding: 20px;
   border-radius: 10px;
   z-index: 100;
-}
-.fulla:hover {
-  color: rgb(46, 146, 185);
+  transition: .3s;
 }
 .oria {
   position: absolute;
@@ -247,9 +234,7 @@ h5:hover {
   padding: 20px;
   border-radius: 10px;
   z-index: 100;
-}
-.oria:hover {
-  color: rgb(46, 146, 185);
+  transition: .3s;
 }
 .origamid {
   background: url("/images/origamid.jpeg");
@@ -258,7 +243,6 @@ h5:hover {
   background-repeat: no-repeat;
   filter: brightness(20%);
 }
-
 /* section4 */
 .section4 {
   position: relative;
@@ -273,15 +257,7 @@ h5:hover {
 .containersec4 {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, rgb(116, 14, 14) ,    rgba(116, 14, 14, 0.692));
-}
-.pc {
-  position: absolute;
-  left: 55%;
-  top: 50px;
-  height: 500px;
-  width: auto;
-  transform: translate(-50%);
+  background-image: linear-gradient(to right, rgb(116, 14, 14) ,    rgba(116, 14, 14, 0.479));
 }
 .projetos {
   position: absolute;
@@ -303,6 +279,7 @@ h5:hover {
   width: 1000px;
   background: rgb(32, 32, 32);
   transform: skew(-20deg);
+  transition: .3s;
 }
 .ulpro {
   position: absolute;
@@ -318,7 +295,6 @@ h5:hover {
 .ulpro li a {
   color: white;
 }
-
 /* section5 */
 .section5 {
   position: relative;
@@ -340,8 +316,5 @@ h5:hover {
   height: 35px;
   width: auto;
   filter: invert(100%);
+  transition: .2s;
 }
-.pdrimg:hover {
-  filter: invert(50%);
-}
-

@@ -1,3 +1,9 @@
+/* Animacao up */
+@keyframes up {
+  0% { opacity: 0; transform: translateY(20px);}
+  100% {opacity: 1; transform: translateY(0px);}
+}
+/* Animacao das letras (nome) */
 @keyframes cor {
   0% {opacity: 0;}
   20% {opacity: 1;color:rgb(82, 173, 209);}
@@ -94,93 +100,28 @@
   animation: cor 1.5s;
   animation-delay: 3.6s;
 }
-.l1:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
+/* Hover */
+.ulmenu a:hover {
+  color: rgb(82, 173, 209);
 }
-.l2:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
+h2:hover {
+  color:  rgb(82, 173, 209);
 }
-.l3:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
+h3:hover {
+  color:  rgb(82, 173, 209);
 }
-.l4:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
+h4:hover {
+  color:  rgb(82, 173, 209);
 }
-.l5:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
+h5:hover {
+  color:  rgb(82, 173, 209);
 }
-.l6:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
+.fulla:hover {
+  color: rgb(46, 146, 185);
 }
-.l7:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
+.oria:hover {
+  color: rgb(46, 146, 185);
 }
-.l8:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
+.pdrimg:hover {
+  filter: invert(50%);
 }
-.l9:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l10:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l11:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l12:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l13:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l14:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l15:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l16:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l17:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l18:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l19:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l20:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l21:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-.l22:hover {
-  color:rgb(82, 173, 209);
-  text-transform: lowercase;
-}
-
-
